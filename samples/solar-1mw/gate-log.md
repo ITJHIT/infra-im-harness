@@ -9,4 +9,5 @@
 | 2026-10-01 | stress-gate | 진행 중 | 최저 DSCR 위치를 15년 차 → 1년 차로 정정. 복합 하방 시나리오 DSCR 1.06. 대주단 DSCR 기준의 출처는 미확보 |
 | 2026-10-01 | risk-allocation-matrix | 🔴 1건 | 출력제어 손실 보상 기준 미정 → 사업자 전액 부담으로 가정 |
 | 2026-10-01 | im-parity | FAIL → PASS | 이용률 변경 후 본문에 "15% → 1,314MWh", "1%p ≈ 2.9%p"가 남아 있었음 → 정정 |
+| 2026-10-10 | assumption-trace | FAIL → PASS | [infra-assumption-feed](https://github.com/ITJHIT/infra-assumption-feed)로 SMP를 전력거래소 원표와 대조 → 2차 출처(업계 블로그)의 8월 148.91·9월 116.74가 원표 148.39·119.02와 불일치. 원표 값으로 교체, '한 달 31원 하락'을 '29.37원'으로 정정 |
 | — | model-audit (엑셀) | 대기 | 작성자가 직접 만드는 엑셀 모델과 `model_check.py` 대조 전 |
